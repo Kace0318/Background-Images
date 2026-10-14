@@ -27,7 +27,26 @@ h2 {
 	background-color: #e2e1d2;
 	font-family: monospace;
 }
+h2 {
+  font-size: 125%;
+  padding: .5rem;
+  background-image: url(c-paw.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-left: 35px;
+}
 
+.property {
+  border: 1px solid silver;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  background-color: #e2e1d2;
+  font-family: monospace;
+  background-image: url(watermark.png);
+  background-repeat: no-repeat;
+  background-size: 75px;
+  background-position: bottom right;
+}
 
 
 /* ⬇ No changes needed
